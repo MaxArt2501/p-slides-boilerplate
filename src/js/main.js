@@ -72,7 +72,7 @@ deck.addEventListener('p-slides.slidechange', ({ detail: { slide } }) => {
   progressBar.style.setProperty('--progress', progress + '%');
 
   toggleNavButtons();
-  requestAnimationFrame(() => {
+  setTimeout(() => {
     deck.style.setProperty('--current-slide-bg', getComputedStyle(slide).backgroundColor);
   });
 });
