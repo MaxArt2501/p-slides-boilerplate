@@ -1,13 +1,16 @@
 {
   "name": "p-slides-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Presentation boilerplate using P-Slides",
   "scripts": {
     "build": "gulp",
     "clean": "gulp clean",
     "serve": "gulp serve"
   },
-  "keywords": ["presentation", "boilerplate"],
+  "keywords": [
+    "presentation",
+    "boilerplate"
+  ],
   "author": {
     "name": "Massimo Artizzu",
     "email": "maxart.x@gmail.com"
