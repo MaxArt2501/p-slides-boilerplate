@@ -4,8 +4,12 @@
 @import "core/toolbar.scss";
 @import "core/progress.scss";
 
-body {
+:root {
   font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
 }
 
 .presentation-toolbar,
