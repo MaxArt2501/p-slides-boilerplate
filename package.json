@@ -1,6 +1,6 @@
 {
   "name": "p-slides-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Presentation boilerplate using P-Slides",
   "scripts": {
     "build": "gulp",
@@ -21,10 +21,10 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.10.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-tap": "^1.0.1",
     "rimraf": "^2.6.2"
   }
